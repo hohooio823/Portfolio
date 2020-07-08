@@ -1,0 +1,291 @@
+
+/*-----------------
+1. Google font
+------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800');
+
+/*-------------------
+2. Theme Default CSS
+--------------------*/
+
+* {
+    outline: none;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.center, .center-column, .top, .right, .bottom, .left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-column {
+    flex-direction: column;
+}
+
+.top    { align-items:     flex-start; }
+.right  { justify-content: flex-end;   }
+.bottom { align-items:     flex-end;   }
+.left   { justify-content: flex-start; }
+
+.single-spaced, .single-spaced * {
+    line-height: 1;
+}
+a {
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    color: #333333;
+}
+.navbar-item a{
+    color: #fff;
+    padding: 10px 2px;
+    text-transform: capitalize;
+    background: transparent;
+    font-weight:medium;
+    border-bottom: 2px solid transparent;
+    margin: 0 15px;
+}
+
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    background-color: #121212;
+}
+.hero{
+    margin:0.5vh;
+}
+
+
+
+/*-- 3. Button-Style --*/
+
+
+.bttn-default {
+    padding: 12px 30px;
+    background-color: #ffffff;
+    display: inline-block;
+    color: #768ede;
+    text-transform: uppercase;
+    border-radius: 50px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    font-size: 14px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    border: none;
+}
+
+
+
+.bttn-default {
+    margin-bottom: 3vh;
+    align-self: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#482cbf+0,6ac6f0+100 */
+    background: rgb(72, 44, 191);
+    /* Old browsers */
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: -o-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+    background: linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
+    color: #ffffff;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.bttn-default:hover {
+    color: #ffffff;
+    -webkit-box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.6);
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+
+
+/*-- 5. MainMenu-Area --*/
+
+
+/*-- 6. Page-Title --*/
+
+
+/*-- 7. Home-Area --*/
+.column.left{
+    position:fixed;
+    top:1em;
+}
+
+.navbar-item:hover{
+    border-bottom: solid white 3px;
+    }
+#home_page{
+    text-align: center
+}
+.typed{
+    justify-self: center;
+    align-self: center;
+    color: #ffffff;
+    font-size: 70px;
+}
+.hero h2{
+    align-self: start;
+    color: #fff;
+    font-size: 1.8em;
+}
+
+/*-- 8. Project-Area --*/
+
+#Projects-page {
+   background-color: #1F1B24;
+}
+.page-title{
+    font-size: 2.5em;
+    color: #cfd8dc;
+    letter-spacing: 4px;
+    font-weight: bold;
+    margin-bottom: 0.625em;
+    text-transform: uppercase;
+}
+div.content{
+    font-weight: 500;
+}
+.card{
+    background-color: rgba(18, 18, 18,80%);
+    color:rgba(18, 18, 18,15%);
+    border-radius: 3px;
+}
+.card-link{
+    color: #5d8bdd;
+}
+.play{
+    width: 32px;
+}
+/*-- 8. About-Area --*/
+#about_page{
+   background-color: #1e222f;
+}
+.about-hello{
+    font-size: 2em;
+    font-weight: bolder;
+    color: #cacaca;
+}
+.about-para{
+    color: #8a8a8a;
+    font-style: normal;
+    font-size: 1.3em;
+    line-height: 1.95em;
+}
+/*-- 9. skills-Area --*/
+
+#skills_page{
+    background-color: #263238;
+}
+.list-group-item{
+    background: transparent;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    color: #e3f2fd;
+}
+.skill-type{
+    font-size: 1.3em;
+    color: #e3f2fd;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.column div {
+    text-align: -webkit-center;
+}
+.column div p{
+    width:fit-content;
+    color: #e3f2fd;
+    margin-top:1em;
+    font-weight: 500;
+    font-size: 1em;
+}
+/* Posts*/
+#posts_page{
+    background-color: #141b25;
+}
+.card.is-horizontal{
+    background-color: #222323;
+    display:flex;
+    color: #cfd8dc;
+    align-items: center;
+    text-align: left;
+}
+.card.is-horizontal:hover{
+    background-color: #3a3c3c
+}
+.card .posts-image{
+    width: 45%;
+    max-width: 235px;
+    object-fit: cover;
+}
+.card-content.post{
+    padding: 0;
+    padding-left: 1rem;
+}
+.post .content{
+    text-align: left;
+}
+*{
+    object-fit: cover;
+}
+/* Contact form */ 
+#contact_page{
+    background-color:#202020;
+}
+@media only screen and (min-width: 768px) {
+    .columns.cards{
+        justify-content: center;
+    }
+     .is-full .card{
+        margin-left:2vw;
+     }
+     .github-icon{
+         padding-left: 1rem;
+     }
+ }
+@media only screen and (max-width: 768px) {
+   .navbar-item{
+       display:none
+   }
+   .github-icon{
+    padding-top: 0vh;
+}
+    .columns .card{
+        margin-bottom: 1vh;
+    }
+}
+@media only screen and (max-width: 411px) {
+    .typed{
+        font-size: 3em;
+    }
+    .column div p {
+        margin-top: 0;
+    }
+    .card .posts-image{
+        width:0%
+    }
+    .card{
+        padding: 1rem;
+    }
+ }
